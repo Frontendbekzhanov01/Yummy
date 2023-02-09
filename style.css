@@ -21,6 +21,12 @@
     display: flex;
 }
 
+.container{
+    width: 95%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .nav{
     flex: 3;
     display: flex;
@@ -166,7 +172,7 @@ button.active span{
     height: 90vh;
     background-color: #fff;
     border-radius: 30px;
-    padding: 40px;
+    padding: 30px 0px;
 }
 
 .card1 .navbar{
