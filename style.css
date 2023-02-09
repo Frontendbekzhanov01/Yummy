@@ -14,7 +14,7 @@
     --textgrcol: #535353;
 }
 
-body{
+.background{
     width: 100%;
     height: 100vh;
     background-color: #DEEBFB;
@@ -384,8 +384,7 @@ button.active span{
 
 .items{
     width: 100%;
-    height: 330px;
-    background-color: red;
+    height: 330px; 
 }
 
 .items h1{
