@@ -45,3 +45,22 @@ function removechangecol(){
         item.classList.remove("changecol");
     });
 }
+
+//* swiper-js slider script *//
+
+const swiper = new Swiper('.swiper', {
+    direction: 'horizantal',
+    loop: true,
+
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+        delay: 5000,
+    },
+});

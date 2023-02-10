@@ -19,6 +19,7 @@
     height: 100vh;
     background-color: #DEEBFB;
     display: flex;
+    overflow: hidden;
 }
 
 .container{
@@ -403,5 +404,27 @@ button.active span{
 .items h1 i{
     font-size: 20px;
     margin-left: 10px;
+}
+
+/* ---=== Swiper slider style ===--- */
+
+.previewer{
+    width: 100%;
+    height: 90%;
+}
+
+.swiper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+
+.swiper-slide .card{
+    width: 200px;
+    height: 170px;
+    background-color: red;
 }
 

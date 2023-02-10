@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <link rel="shortcut icon" href="./Images/logo website.png" type="image/x-icon">
     
     <!-- Fonts -->
@@ -18,7 +18,12 @@
     <!-- ======== -->
 
     <!-- Swiper slider cdn -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!-- ======== -->
 
     <title>Yummy | Bekzhanov Rasul</title>
@@ -119,7 +124,17 @@
                     <div class="items">
                         <h1>all items<i class="fa-solid fa-sliders"></i></h1>
                         <div class="previewer">
-                                             
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="card">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>             
                         </div>
                     </div>
                 </div>
@@ -131,6 +146,7 @@
             <div class="card4"></div>
         </div>
     </div>
+    
+<script src="./assets/app.js"></script>
 </body>
-<script src="app.js"></script>
 </html>
