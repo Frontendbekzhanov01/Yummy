@@ -49,18 +49,14 @@ function removechangecol(){
 //* swiper-js slider script *//
 
 const swiper = new Swiper('.swiper', {
-    direction: 'horizantal',
+    //!Optional parameters
+    direction: 'horizontal',
     loop: true,
-
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+    slidesPerView: 4,
+    spaceBetween: 1,
+    //!Autoplay
     autoplay: {
-        delay: 5000,
-    },
-});
+        delay: 2000,
+        stopOnLastSlide: false,
+      },
+  });
