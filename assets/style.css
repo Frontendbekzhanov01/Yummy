@@ -167,7 +167,7 @@ button.active span{
     justify-content: center;
 }
 
-.main .card1{
+.main .card{
     display: none;
     width: 90%;
     height: 90vh;
@@ -176,7 +176,11 @@ button.active span{
     padding: 30px 0px;
 }
 
-.card1 .navbar{
+.card.active{
+    display: block;
+}
+
+.card .navbar{
     height: 10vh;
     width: 100%;
     display: flex;
@@ -243,10 +247,6 @@ button.active span{
 #shop-icon:hover{
     cursor: pointer;
     transition: .4s;
-}
-
-.card1.active{
-    display: block;
 }
 
 .menus{
@@ -420,7 +420,7 @@ button.active span{
     justify-content: center;
 }
 
-.swiper-slide .card{
+.swiper-slide .cards{
     padding:10px;
     width: 200px;
     height: 170px;
@@ -435,31 +435,34 @@ button.active span{
     flex-direction: column;
 }
 
-.swiper-slide .card:hover{
+.swiper-slide .cards:hover{
     cursor: pointer;
     transition: .4s;
 }
 
-.swiper-slide .card img{
+.swiper-slide .cards img{
     position: absolute;
     transform: translateY(-80px);
     filter: drop-shadow(4px 0px 15px rgba(120, 120, 120, 0.25));
 }
 
-.swiper-slide .card h1{
+.swiper-slide .cards h1{
     font-size: 16px;
     margin: 10px 0px; 
     font-family: var(--font);
 }
 
-.swiper-slide .card p{
+.swiper-slide .cards p{
     font-size: 14px;
     font-family: var(--font);
     margin: 10px 0px;
 }
 
-.swiper-slide .card h4{
+.swiper-slide .cards h4{
     font-size: 16px;
     font-family: var(--font);
     margin: 10px 0px;
 }
+
+/* ----==== Menus style card ====---- */
+

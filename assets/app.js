@@ -15,7 +15,7 @@ function removeclass(){
     });
 }
 
-let pages = document.querySelectorAll(".main div");
+let pages = document.querySelectorAll(".main .card");
 
 function remove() {
     pages.forEach((item,index) => {
@@ -26,10 +26,14 @@ function remove() {
 function addactive(value){
     pages.forEach((item,index) => {
         if(value == index){
-            item.classList.add("active");
+            item.classList.add("active")
         }
     });
 }
+
+pages.forEach((item,index)=>{
+    console.log(index);
+})
 
 let formenu = document.querySelectorAll(".foods div");
 
