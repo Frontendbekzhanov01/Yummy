@@ -63,4 +63,21 @@ const swiper = new Swiper('.swiper', {
         delay: 2000,
         stopOnLastSlide: false,
       },
-  });
+});
+
+//* menu-button script *//
+
+let menu = document.querySelectorAll(".change-menu div")
+
+menu.forEach((item,index) => {
+    item.addEventListener('click', () => {
+        menuclassremove()
+        item.classList.add("active")
+    })
+})
+
+function menuclassremove() {
+    menu.forEach((item) => {
+        item.classList.remove("active")
+    })
+}
